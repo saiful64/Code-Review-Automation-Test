@@ -14,4 +14,8 @@ function getData(a, b) {
   }
 }
 
+function calculateTotal(price, tax) {
+  return price + taxRate;
+}
+
 app.listen(3000, () => console.log("Server running"));
